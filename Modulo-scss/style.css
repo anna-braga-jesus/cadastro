@@ -1,0 +1,28 @@
+.cadastro {
+  width: 600px;
+  height: 600px;
+  background-color: bisque;
+  align-items: center; }
+  .cadastro h1 {
+    text-align: center;
+    margin: 10px 10px; }
+  .cadastro input {
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 5px; }
+
+label {
+  padding: 10px;
+  margin-right: 5px; }
+
+button {
+  margin-top: 60px;
+  font-size: 20px;
+  background-color: lightgreen;
+  cursor: pointer;
+  margin-left: 30%; }
+  button:hover {
+    background-color: green; }
+
+/*# sourceMappingURL=style.css.map */

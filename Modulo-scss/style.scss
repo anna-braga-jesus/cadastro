@@ -1,0 +1,44 @@
+.cadastro {
+    width: 600px;
+    height: 600px;
+    background-color: bisque;
+    align-items: center;
+
+    h1 {
+        text-align: center;
+        margin: 10px 10px;
+    }
+
+    input {
+        font-size: 10px;
+        padding: 10px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}
+
+label {
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.btn {
+    width: 200px;
+    padding: 10px 0;
+    font-size: 20px;
+    background: none;
+    cursor: pointer;
+    border: none;
+    margin-left: 30%;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: green;
+    }
+}
+
+.btn-laranja {
+    @extend .btn;
+    background-color: orange;
+
+}
